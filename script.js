@@ -176,7 +176,7 @@ images.forEach((img, index) => {
 });
 
 // fechar
-document.querySelector(".close-lightbox").onclick = () => { //alterado de .close para .close-lightbox
+document.querySelector(".close").onclick = () => { //alterado de .close para .close-lightbox
   lightbox.classList.remove("active");
 };
 
